@@ -79,3 +79,39 @@ a {
     border: 3pxx solid #353e43;
     border-radius: 50px;
 }
+
+/* SKILLS AND AUTOBIOGRAPHY */
+.skills-autobiography-container {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.skills-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #353e43;
+    border-radius: 10px;
+}
+
+.autobiography-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 2px solid #353e43;
+    border-radius: 10px;
+}
+
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-item {
+    padding: 10px 15px;
+    border: 2px solid #353e43;
+    border-radius: 10px;
+    background-color: #b9d9eb;
+}
