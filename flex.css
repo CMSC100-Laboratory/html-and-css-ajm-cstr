@@ -115,3 +115,21 @@ a {
     border-radius: 10px;
     background-color: #b9d9eb;
 }
+
+/* FOOTER */
+.footer-section {
+    background-color: #353e43;
+    padding: 20px;
+    color: #ffffff;
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.to-top {
+    color: #b9d9eb;
+}
