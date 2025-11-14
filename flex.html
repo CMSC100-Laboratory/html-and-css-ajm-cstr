@@ -8,33 +8,35 @@
 
   <body id="top">
     <nav>
-    <div class="nav_bar" >
+    <div class="nav-bar" >
         <img src="icon.jpg" class="logo" alt="My Logo">
-        <div class="flex-item" style="flex: 1">
-            <a href="/home/">Home</a>
+        <div class="nav-item" style="flex: 1">
+            <a href="#home">Home</a>
         </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/bio/">Autobiography</a>
+        <div class="nav-item" style="flex: 1">
+            <a href="#projects">Projects</a>
+        </div>
+        <div class="nav-item" style="flex: 1">
+            <a href="#skills">Skills</a>
+        </div>
+        <div class="nav-item" style="flex: 1">
+            <a href="#bio">Autobiography</a>
         </div> 
-        <div class="flex-item" style="flex: 1">
-            <a href="/skills/">Skills</a>
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/projects/">Projects</a>
-        </div>
-        <div class="flex-item" style="flex: 1">
-            <a href="/contact/">Contact Me</a>
+        <div class="nav-item" style="flex: 1">
+            <a href="#contact">Contact Me</a>
         </div>
     </div>
     </nav>
 
     <header id="home" class="header-section">
-        <img src="feat_photo.jpg" alt="Featured Photo" class="featured_photo">
-        <h1 class="name">Alexander John M. Castro III</h1>
-        <p class="desc">BATCH 2021 | BS COMPUTER SCIENCE</p>
+        <div class="header-container">
+            <img src="feat_photo.jpg" alt="Featured Photo" class="featured_photo">
+            <h1 class="name">Alexander John M. Castro III</h1>
+            <p class="desc">BATCH 2021 | BS COMPUTER SCIENCE</p>
+        </div>
     </header>
 
-    <div class="project-container">
+    <div id="projects" class="project-container">
         <h2>Previous Projects</h2>
 
         <div class="project-items" style="flex: 3;">
@@ -55,7 +57,7 @@
         </div>
     </div>
 
-    <div class="skills-autobiography-container">
+    <div id="skills" class="skills-autobiography-container">
         <div class="skills-section" style="flex: 3;">
             <h1>Skills</h1>
 
@@ -81,7 +83,7 @@
         </div>
     </div>
 
-    <footer class="footer-section">
+    <footer id="contact" class="footer-section">
         <div class="footer-item">
             <img src="icon.jpg" class="logo" alt="My Logo">
         </div>
